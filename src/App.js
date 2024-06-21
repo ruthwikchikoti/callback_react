@@ -22,7 +22,7 @@ function App() {
       <ChildComponent count={count} onClick={incrementCount} />
     </div>
   );
-}
+} 
 
 const ChildComponent = React.memo(function ({ count, onClick }) {
   console.log("ChildComponent render");
